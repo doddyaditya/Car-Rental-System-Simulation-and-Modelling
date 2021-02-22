@@ -1,0 +1,58 @@
+Car Rental Model
+
+Number of location                              3
+
+Number of terminal                              2
+
+Route distance from 1 to 2                      1.0 mile
+
+Route distance from 2 to 3                      4.5 miles
+
+Route distance from 3 to 1                      4.5 miles
+
+Bus speed                                       30.0 miles per hour
+
+Minimum time spent by bus                       5.0 minutes
+
+Distribution function of unloading              0.583    1.0
+in each terminal
+
+Interarrival rate per hour on each location     14.0     10.0     24.0
+
+Uniform distribution of unloading time range    16.0 - 24.0 seconds each person
+
+Uniform distribution of loading time range      15.0 - 25.0 seconds each person
+
+Length of simulation                            80.0 hours
+
+----------------------------STATISTIC REPORT IN HOUR----------------------------
+
+a. Average and maximum number in each queue
+Location          Average number         Maximum number
+Terminal 1            7.140                 26.000
+Terminal 2            5.031                 19.000
+Car rental            9.623                 31.000
+
+b. Average and maximum delay in each queue
+Location          Average delay          Maximum delay
+Terminal 1            0.507                  1.552
+Terminal 2            0.512                  2.208
+Car rental            0.415                  1.160
+
+c. Average and maximum number on the bus
+Average number    Maximum number
+13.860                20.000
+
+d. Average, maximum, and minimum time the bus stopped in each location
+Location          Average time           Maximum time          Minimum time
+Terminal 1            0.112                  0.172                0.083
+Terminal 2            0.091                  0.155                0.083
+Car rental            0.190                  0.229                0.092
+
+e. Average, maximum, and minimum the bus to make a loop
+Average time      Maximum time           Minimum time
+0.726                 0.807                  0.592
+
+f. Average, maximum, and minimum time person is in the system
+Average time      Maximum time           Minimum time
+0.759                 2.474                  0.178
