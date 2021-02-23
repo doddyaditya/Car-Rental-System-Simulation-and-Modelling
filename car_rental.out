@@ -29,30 +29,30 @@ Length of simulation                            80.0 hours
 
 a. Average and maximum number in each queue
 Location          Average number         Maximum number
-Terminal 1            7.140                 26.000
-Terminal 2            5.031                 19.000
-Car rental            9.623                 31.000
+Terminal 1            7.588                 27.000
+Terminal 2            4.927                 17.000
+Car rental            9.387                 30.000
 
 b. Average and maximum delay in each queue
 Location          Average delay          Maximum delay
-Terminal 1            0.507                  1.552
-Terminal 2            0.512                  2.208
-Car rental            0.415                  1.160
+Terminal 1            0.539                  1.633
+Terminal 2            0.501                  2.214
+Car rental            0.405                  1.123
 
 c. Average and maximum number on the bus
 Average number    Maximum number
-13.860                20.000
+13.855                20.000
 
 d. Average, maximum, and minimum time the bus stopped in each location
 Location          Average time           Maximum time          Minimum time
-Terminal 1            0.112                  0.172                0.083
+Terminal 1            0.112                  0.170                0.083
 Terminal 2            0.091                  0.155                0.083
-Car rental            0.190                  0.229                0.092
+Car rental            0.190                  0.229                0.098
 
 e. Average, maximum, and minimum the bus to make a loop
 Average time      Maximum time           Minimum time
-0.726                 0.807                  0.592
+0.726                 0.793                  0.600
 
 f. Average, maximum, and minimum time person is in the system
 Average time      Maximum time           Minimum time
-0.759                 2.474                  0.178
+0.761                 2.476                  0.183
