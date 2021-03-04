@@ -43,8 +43,8 @@
 
 int num_location, num_terminal, bus_capacity, bus_start_location, bus_stop_location;
 double person_first_arrival, bus_last_arrival, bus_last_departure, bus_speed, bus_last_arrival, bus_min_time_process, length_simulation, prob_distrib_terminal[26], interarrival_time[MAX_NUM_LOCATION + 1],
-       load_uniform_distrib_terminal[MAX_RANGE + 1], unload_uniform_distrib_terminal[MAX_RANGE + 1],
-       route_distance[MAX_NUM_LOCATION + 1][MAX_NUM_LOCATION + 1];
+    load_uniform_distrib_terminal[MAX_RANGE + 1], unload_uniform_distrib_terminal[MAX_RANGE + 1],
+    route_distance[MAX_NUM_LOCATION + 1][MAX_NUM_LOCATION + 1];
 FILE *infile, *outfile;
 
 int recent_bus_capacity()
